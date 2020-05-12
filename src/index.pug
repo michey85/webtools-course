@@ -1,0 +1,11 @@
+html
+    head
+        title Pug
+        link(rel="stylesheet", href="./css/styles.css")
+    body
+        nav
+            ul
+                each item in locals.nav.links
+                    li #{item}
+        h1 Hello from Pug!
+        h2 Lorem ipsum dolor sit amet!
